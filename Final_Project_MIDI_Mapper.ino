@@ -16,6 +16,8 @@ int midiNotes[12] = {60, 62, 64, 65, 67, 69, 71, 72, 74, 76, 77, 79}; //Array of
 int buttonScale = 31; //Button to change scale
 
 
+int buttonScale = 31;
+
 void setup() {
   Serial.begin(9600);
 
