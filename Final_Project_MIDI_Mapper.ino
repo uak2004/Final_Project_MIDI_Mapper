@@ -13,6 +13,8 @@ uint16_t currtouched = 0;
 
 int midiNotes[12] = {60, 62, 64, 65, 67, 69, 71, 72, 74, 76, 77, 79};
 
+int buttonScale = 31;
+
 void setup() {
   Serial.begin(9600);
 
