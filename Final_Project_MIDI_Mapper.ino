@@ -11,7 +11,10 @@ uint16_t lasttouched = 0;
 uint16_t currtouched = 0;
 
 
-int midiNotes[12] = {60, 62, 64, 65, 67, 69, 71, 72, 74, 76, 77, 79};
+int midiNotes[12] = {60, 62, 64, 65, 67, 69, 71, 72, 74, 76, 77, 79}; //Array of MIDI Notes
+
+int buttonScale = 31; //Button to change scale
+
 
 void setup() {
   Serial.begin(9600);
